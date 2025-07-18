@@ -13,5 +13,9 @@ void I2CDeviceComponent::dump_config() {
   LOG_I2C_DEVICE(this);
 }
 
+void I2CDeviceComponent::readByte() {
+  LOG_I2C_DEVICE(this);
+}
+
 }  // namespace i2c_device
 }  // namespace esphome
