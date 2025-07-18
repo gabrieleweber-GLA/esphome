@@ -9,7 +9,7 @@ namespace i2c_device {
 class I2CDeviceComponent : public Component, public i2c::I2CDevice {
  public:
   void dump_config() override;
-  void read_byte();
+  void read_byte() override;
 
  protected:
 };
