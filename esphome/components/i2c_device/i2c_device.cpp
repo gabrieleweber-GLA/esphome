@@ -13,7 +13,7 @@ void I2CDeviceComponent::dump_config() {
   LOG_I2C_DEVICE(this);
 }
 
-void I2CDeviceComponent::readByte() {
+void I2CDeviceComponent::read_byte() {
   LOG_I2C_DEVICE(this);
 }
 
